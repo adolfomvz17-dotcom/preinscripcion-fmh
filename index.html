@@ -103,7 +103,7 @@ $("#cicloTxt").textContent = `Preinscripciones año lectivo ${NEXT_YEAR}`;
 /* Pega aquí la URL de tu Google Apps Script publicado como Aplicación web (termina en /exec). Ver README.md. */
 const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwjbPYSwxPLuz3oLzgYc4jrNqlgOLQA1G54WrP9fHX4ma4GI1zEy8E_8Z6AJ9ftL_khAg/exec";
 
-const GRADOS_ASPIRA = ["BABYLAND","TODDLERS","KINDER 3","KINDER 4","TRANSITION","FIRST","SECOND","THIRD","FOURTH","FIFTH","UAI"];
+const GRADOS_ASPIRA = ["BABYLAND","TODDLERS","KINDER 3","KINDER 4","TRANSITION","FIRST","SECOND","THIRD","FOURTH","FIFTH"];
 
 const SECTIONS = [
   { legend:"Datos del estudiante", fields:[
@@ -122,8 +122,8 @@ const SECTIONS = [
     ["est_dir","Dirección","full"],
     ["est_cel1","Celular 1","half",null,null,null,null,true],
     ["est_cel2","Celular 2","half"],
-    ["est_colegioAnt","Colegio donde estudia/estudió actualmente","full"],
-    ["est_gradoCurso","Grado que cursa/cursó actualmente","half"],
+    ["est_colegioAnt","Colegio donde estudia","full"],
+    ["est_gradoCurso","Grado que cursa actualmente","half"],
   ]},
   { legend:"Datos de la madre", fields:[
     ["mad_nombre","Nombres y apellidos","full"],
